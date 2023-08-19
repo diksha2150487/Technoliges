@@ -1,0 +1,53 @@
+.container {
+  width: 100%;
+  margin-bottom: 4rem;
+}
+.subContainer {
+  width: 90%;
+  display: flex;
+  justify-content: right;
+  margin: auto;
+  padding: 0rem 5rem;
+}
+.part-1 {
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -80px;
+}
+
+.part-2 {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+  align-items: center;
+}
+
+.part-2 > h1 {
+  text-align: right;
+  width: 100%;
+  font-size: 30px;
+  color: #202020;
+}
+
+.part-2 > p {
+  padding-top: 2rem;
+  text-align: right;
+  font-size: 18px;
+  font-weight: 500;
+  color: #33475b;
+  line-height: 30px;
+  letter-spacing: 0.55px;
+}
+
+.btn {
+  background-color: tomato;
+  color: white;
+  border: 1px solid wheat;
+  border-radius: 20px;
+  height: 45px;
+  width: 170px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}

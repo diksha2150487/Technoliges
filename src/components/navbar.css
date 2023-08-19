@@ -1,0 +1,151 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.navbar-main {
+  max-width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto 0px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 60px;
+  height: 100px;
+}
+.company-img-text {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  color: #33475b;
+}
+.login-button-text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  justify-self: end;
+  margin-right: 20px;
+  gap: 2rem;
+  box-shadow: 10px #fff;
+}
+
+.company-logo {
+  height: 40px;
+  width: 160px;
+  align-items: center;
+}
+
+.text1 {
+  margin-left: 2rem;
+  color: #33475b;
+}
+#dark-lg {
+  color: orangered;
+  font-size: 17px;
+}
+.clickme-button {
+  padding: 15px 50px;
+
+  border-radius: 40px;
+  background: orangered;
+  color: white;
+  border: 1px solid wheat;
+  margin: 2rem 0rem;
+  font-size: 17px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+.firstComponent {
+  display: flex;
+  align-items: center;
+}
+
+.dashboardImg {
+  width: 50%;
+  transform: rotate(30deg);
+}
+
+.loremPara1-navbar {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.text-right {
+  text-align: right;
+  padding: 3rem;
+}
+
+/* ************************************************************************************** */
+
+.firstComponent {
+  display: flex;
+
+  align-items: center;
+  text-align: center;
+
+  width: 100%;
+
+  margin-top: 2rem;
+}
+.dashboardImg {
+  width: 55%;
+  height: "100px";
+  transform: rotate(32deg);
+  margin-top: 30px;
+  padding: 0rem 6rem;
+}
+.h2-Heading-navbar {
+  font-size: 35px;
+  padding: 0rem 5rem 0rem 0rem;
+  font-family: "Mulish", sans-serif;
+}
+.loremPara1-navbar {
+  font-size: 17px;
+  font-weight: 400;
+  max-width: "160px";
+  text-align: end;
+  padding: 0rem 5rem 0rem 0rem;
+  line-height: 30px;
+  font-family: "Quicksand", sans-serif;
+}
+.text-right {
+  text-align: right;
+}
+.zoom {
+  padding: 14px 55px;
+
+  border-radius: 40px;
+  background: orangered;
+  color: white;
+  border: 1px solid wheat;
+  margin: 2rem 5rem;
+  font-size: 17px;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
+#colouring-box {
+  width: 80%;
+}
+.word-container {
+  max-width: 800px;
+  padding-top: 3rem;
+  margin: 0 auto;
+}
+.waveImg {
+  width: 100%;
+  height: 300px;
+}
+.word-container h3 {
+  text-align: center;
+  font-size: 27px;
+  margin: 0;
+  line-height: 1.3;
+  font-weight: 600;
+  color: #202020;
+}
+.word-container h3 > span {
+  display: inline-block;
+  margin: 2px 0px;
+  font-weight: 700;
+}

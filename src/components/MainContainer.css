@@ -1,0 +1,155 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.main-section-laptop {
+  display: flex;
+  margin-top: 4rem;
+}
+
+.left-section-lapo {
+  width: 45%;
+}
+
+.right-section-cont {
+  width: 55%;
+  text-align: left;
+  padding: 6rem 2rem 2rem 3rem;
+}
+
+#book-com {
+  width: 700px;
+}
+
+.Happy-content {
+  font-size: 35px;
+  color: #202020;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  line-height: 40px;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+#cool {
+  font-size: 16px;
+  color: #33475b;
+  font-family: "Poppins", sans-serif;
+  padding-top: 1rem;
+  line-height: 28px;
+  text-align: left;
+  letter-spacing: 0.67px;
+}
+
+/* ************************************************************************************* */
+.container2 {
+  margin-top: 2rem;
+  display: flex;
+}
+
+.left-class-easier {
+  width: 50%;
+  padding: 2rem 0rem 0rem 8rem;
+}
+
+.right-class-content {
+  width: 50%;
+  padding: 2rem 0rem 0rem 0rem;
+}
+
+.payroll {
+  color: black;
+  font-size: 34px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  letter-spacing: 0.58px;
+  text-align: left;
+}
+
+.wow {
+  font-size: 34px;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  padding-top: 8px;
+  font-weight: 600;
+  max-width: 80%;
+  line-height: 45px;
+  text-align: left;
+}
+
+.milzo {
+  max-width: 80%;
+  color: #33475b;
+  font-size: 17px;
+  font-family: "Quicksand", sans-serif;
+  line-height: 30px;
+  text-align: left;
+}
+
+.dark-content {
+  max-width: 78%;
+  color: tomato;
+  padding-top: 6px;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+  font-weight: 600;
+  text-align: left;
+}
+
+.pritty {
+  color: #33475b;
+  padding-top: 6px;
+  font-size: 17px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 30px;
+  text-align: left;
+}
+
+/* ******************************************************************************* */
+.img-main-section {
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+#flower-img {
+  width: 100%;
+}
+
+.complete {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+}
+
+.complete > h3 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  font-family: "Roboto", sans-serif;
+}
+
+.complete > h5 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 15px;
+  color: #33475b;
+  font-family: "Poppins", sans-serif;
+}
+
+.complete > button {
+  width: 160px;
+  padding: 0.6rem 0.5rem;
+  font-size: 14px;
+  border: none;
+  border-radius: 12px;
+  color: #fff;
+  background: orangered;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+}
